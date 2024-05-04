@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav.nav-container {
+    height: 100%;
+    max-height: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+nav .nav-list {
+    width: 100%;
+    max-width: 25rem;
+
+}
+
+nav .nav-list ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .nav-list ul li {
+    list-style: none;
+}
+
+nav .nav-list ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+main .jumbotron {
+    height: 100vh;
+}
